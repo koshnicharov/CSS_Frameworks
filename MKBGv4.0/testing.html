@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- SEO -->
+	<meta http-equiv="content-type" content="text/html" charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="author" content="">
+	<!-- /SEO -->
+	<title>Mobile-Friendly Design</title>
+	<!-- Design -->
+	<link rel="stylesheet" type="text/css" href="design.css">
+	<link rel="shortcut icon" type="image/png" href="favicon.png">
+	<!-- /Design -->
+</head>
+<body>
+<div class="header">
+<div class="container">
+<div class="column3" id="logo" style="background: red">
+	<img src="logo.png" alt="Logo">
+	<h1>Mobile-Friendly Design</h1>
+</div><!-- End .column3 -->
+
+<div class="column2" id="search" style="background: blue">
+	<form method="POST" action="search.php">
+		<input type="text" name="search" placeholder="Search">
+	</form>
+</div><!-- End .column2 -->
+
+<div class="column5" id="nav" style="background: green">
+
+<ul class="right">
+
+	<li><a href="#">Home</a></li>
+	<li><a href="#">Portfolio</a></li>
+	<li><a href="#">Contacts</a></li>
+</ul>
+</div><!-- End .column5 -->
+
+
+<div class="column10" id="nav" style="background: yellow">
+
+<ul class="left">
+
+	<li><a href="#">Page01</a></li>
+	<li><a href="#">Page02</a></li>
+	<li><a href="#">Page03</a></li>
+	<li><a href="#">Page04</a></li>
+	<li><a href="#">Page05</a></li>
+	<li><a href="#">Page06</a></li>
+	<li><a href="#">Page07</a></li>
+	<li><a href="#">Page08</a></li>
+	<li><a href="#">Page09</a></li>
+	<li><a href="#">Page10</a></li>
+	<li><a href="#">Page11</a></li>
+	<li><a href="#">Page12</a></li>
+	<li><a href="#">Page13</a></li>
+</ul>
+
+<hr>
+
+<ul class="center">
+	<li><a href="#">Page14</a></li>
+	<li><a href="#">Page15</a></li>
+	<li><a href="#">Page16</a></li>
+	<li><a href="#">Page17</a></li>
+	<li><a href="#">Page18</a></li>
+	<li><a href="#">Page19</a></li>
+	<li><a href="#">Page20</a></li>
+	<li><a href="#">Page21</a></li>
+	<li><a href="#">Page22</a></li>
+	<li><a href="#">Page23</a></li>
+	<li><a href="#">Page24</a></li>
+	<li><a href="#">Page25</a></li>
+	<li><a href="#">Page26</a></li>
+	<li><a href="#">Page27</a></li>
+</ul>
+
+<hr>
+
+<ul class="right">
+
+	<li><a href="#">Page28</a></li>
+	<li><a href="#">Page29</a></li>
+	<li><a href="#">Page30</a></li>
+	<li><a href="#">Page31</a></li>
+	<li><a href="#">Page32</a></li>
+	<li><a href="#">Page33</a></li>
+	<li><a href="#">Page34</a></li>
+	<li><a href="#">Page35</a></li>
+	<li><a href="#">Page36</a></li>
+	<li><a href="#">Page37</a></li>
+	<li><a href="#">Page38</a></li>
+	<li><a href="#">Page39</a></li>
+	<li><a href="#">Page40</a></li>
+</ul>
+</div><!-- End .column10 -->
+
+</div><!-- End .container -->
+</div><!-- End .header -->
+
+
+<div class="slider" id="slider">
+
+	<ul>
+		<li>
+			<img src="images/Lighthouse.jpg">
+		</li>
+		<li>
+			<img src="images/Desert.jpg">
+		</li>
+		<li>
+			<img src="images/Penguins.jpg">
+		</li>
+	</ul>
+
+</div><!-- End .slider -->
+
+
+<div class="content">
+<div class="container">
+<div class="column6" id="content" style="background: green">
+
+	<h2>Example</h2>
+
+	<form method="POST" action="">
+
+		<label for="email">Email</label>
+		<input type="email" name="email" id="email">
+		<button>Check</button>
+
+		<label for="password1">Password</label>
+		<input type="password" name="password1" id="password1">
+
+		<label for="password2">Confirm password</label>
+		<input type="password" name="password2" id="password2">
+
+		<label for="username">Username</label>
+		<input type="text" name="username" id="username">
+
+		<label for="image">Profile picture</label>
+		<br>
+		<input type="file" name="image" id="image">
+		<br>
+
+		<label for="description">Description</label>
+		<textarea name="description" id="description"></textarea>
+
+		<label for="gender">Gender</label>
+		<br>
+		<input type="radio" name="gender" id="male" value="male">
+		<label for="male">Male</label>
+		<br>
+		<input type="radio" name="gender" id="female" value="female" style="left: 25px">
+		<label for="female">Female</label>
+		<br>
+
+		<div class="clearfix">
+
+			<label>Birth date</label>
+
+			<br>
+
+			<select name="day" id="day">
+				<script type="text/javascript">
+
+					for (var i = 1; i <= 31; i++) {
+
+						document.write('<option value="' + i + '">' + i + '</option>');
+
+					}
+
+				</script>
+			</select>
+
+			/
+
+			<select name="month" id="month">
+				<script type="text/javascript">
+
+					for (var i = 1; i <= 12; i++) {
+
+						document.write('<option value="' + i + '">' + i + '</option>');
+						
+					}
+
+				</script>
+			</select>
+
+			/
+			
+			<select name="year" id="year">
+
+				<script type="text/javascript">
+
+					for (var i = 2019; i >= 1920; i--) {
+
+						document.write('<option value="' + i + '">' + i + '</option>');
+						
+					}
+
+				</script>
+
+			</select>
+			
+		</div>
+
+		<input type="checkbox" name="terms" id="terms" style="left: 25px">
+		<label for="terms">Terms</label>
+
+
+
+		<input type="submit" name="register">
+		<input type="reset" name="reset">
+		
+	</form>
+
+</div><!-- End .column6 -->
+
+<div class="column4" id="aside" style="background: red">
+
+	<h3 class="center">MKBGv4.0</h3>
+
+	<p class="p">This framework is built with jQuery and custom CSS. The goal is to provide Browser-Independence. However this may sacrifice speed. JQuery is slower than raw JavaScript. But even JavaScript needs time to load. You can simply avoid this problem by adding values to the CSS. The code is:</p>
+
+	<br>
+
+	<p style="background: #f2f2f2; border-radius: 5px;">
+		body {<br>
+			<span class="indentation">padding-top: 49.2813px;<br></span>
+		}
+	</p>
+
+	<br>
+
+	<p>
+		For small screen use the meta tags:
+	</p>
+
+	<br>
+
+	<p style="background: #f2f2f2;">
+		@media only screen and (max-width: 992px){
+	</p>
+
+	<p id="indentation" style="background: #f2f2f2;">
+		body {<br>
+			<span class="indentation">padding-top: 50vh;<br></span>
+		}
+	</p>
+
+	<p style="background: #f2f2f2;">
+		}
+	</p>
+
+	<br>
+
+	<p class="p">
+		This depends on the number of your menu items. Viewport tag is required. You can use this code and modify it. It is tested on the default browser of Windows 7 Ultimate (Internet Explorer 9).
+	</p>
+
+	<p class="p">
+		This project could be combined with PHP and AJAX. For example you could build a Real-Time Chat.
+	</p>
+
+
+</div><!-- End .column4 -->
+</div><!-- End .container -->
+</div><!-- End .content -->
+
+
+<div class="footer">
+<div class="container" style="background: blue">
+
+<h6>CSS Framework provided by <br>Mario Genchev Koshnicharov</h6>
+
+</div><!-- End .container -->
+</div><!-- End .footer -->
+
+
+<!-- Logic -->
+<script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="design.js"></script>
+<script type="text/javascript" src="custom.js"></script>
+<script type="text/javascript"></script>
+<!-- /Logic -->
+
+</body>
+</html>
