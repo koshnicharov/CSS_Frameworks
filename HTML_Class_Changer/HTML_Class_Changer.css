@@ -1,0 +1,40 @@
+/*
+
+	Author: Mario Genchev Koshnicharov
+	Purpose: Bootstrap Development in WordPress Themes
+
+	Default Design and Custom Classes
+
+*/
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: "Times New Roman", sans-serif;
+	text-align: center;
+}
+
+p {
+	text-align: justify;
+}
+
+.default {
+	margin: auto;
+	padding: 1%;
+	width: 96%;
+	height: auto;
+	background: #00f;
+	color: #0f0;
+}
+
+.custom {
+	margin: auto;
+	padding: 1%;
+	width: 96%;
+	height: auto;
+	background: #404040;
+	color: #fff;
+}

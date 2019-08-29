@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DOM Targeting</title>
+	<link rel="stylesheet" type="text/css" href="HTML_Class_Changer.css">
+</head>
+<body>
+
+	<div id="selector" class="default">
+
+		<h1>HTML Class Changer</h1>
+
+		<br>
+
+		<p>
+			The project allows you to add/remove classes. <br>
+			This can be useful in <b>Bootstrap</b> Development. <br>
+			It may help with styling WordPress Themes <br>
+			<i>Author: Mario Genchev Koshnicharov</i>
+		</p>
+
+	</div>
+
+	<script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+
+	<script type="text/javascript" src="HTML_Class_Changer.js"></script>
+
+	<script type="text/javascript">
+
+		removingClass('#selector', 'default');
+
+		addingClass('#selector', 'custom');
+
+	</script>
+</body>
+</html>
